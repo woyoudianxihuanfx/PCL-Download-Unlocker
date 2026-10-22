@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>PCL.DownloadUnlocker</AssemblyName>
+    <RootNamespace>PclDownloadUnlocker</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dnlib">
+      <HintPath>lib\dnlib.dll</HintPath>
+    </Reference>
+    <EmbeddedResource Include="assets\Plain Craft Launcher 2.14.0.0.exe"
+                      LogicalName="PclDownloadUnlocker.Assets.PCL.2.14.0.0.exe" />
+  </ItemGroup>
+</Project>
